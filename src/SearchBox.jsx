@@ -64,7 +64,7 @@ export default function SearchBox({ newWeatherInfo }) {
         <Button variant="contained" type="submit">
           Search
         </Button>
-        {error && <p>no such city!</p>}
+        {error && <p>No such city!</p>}
       </form>
     </div>
   );
